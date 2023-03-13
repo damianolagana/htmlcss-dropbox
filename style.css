@@ -9,15 +9,29 @@
     display: flex;
 }
 
+.justifySB{
+    justify-content: space-between;
+}
+
+.inLineList{
+    list-style-type: none;
+}
+ a{
+    text-decoration: none;
+ }
+
 /* HEADER */
 
 header{
     width: 100%;
-    height: 100px;
-    background-color: aqua;
+    height: 80px;
+    position: fixed;
 }
 
+
+
 /* MAIN */
+
 .boxed1{
     width: 1200px;
     margin: auto;
