@@ -22,7 +22,6 @@ a{
 }
 
 .blueButton{
-    color: white;
     border-radius: 0;
     background-color: #0061ff;
     border: none;
@@ -36,6 +35,8 @@ header{
     height: 80px;
     position: fixed;
     top: 0;
+    z-index: 999;
+    background-color: white;
 }
 
 header > nav {
@@ -67,6 +68,9 @@ header nav .inLineList > li > a {
     padding: 0.5em 1em;
 }
 
+.WhiteLink{
+    color: white;
+}
 
 
 
@@ -80,8 +84,7 @@ main{
 .boxed1{
     width: 1200px;
     margin: auto;
-    height: 80%;
-    background-color: blue;
+
 }
 
 /* SECTION1 */
@@ -91,3 +94,35 @@ main{
     background-color: #b4d0e7;
 }
 
+#Section1Box{
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+#imgSection1{
+    width: 100%;
+    object-fit: contain;
+}
+
+#ScatolaimgSection1{
+    width: 70%;
+}
+
+#ScatolaDescrSection1{
+    width: 70%;
+}
+
+#ButtonProva{
+    margin: 2em 0 2em 0;
+    padding: 1em;
+}
+
+#Arrow{
+    margin-top: 105px;
+    font-size: 2em;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- HEADER FIXED -->
@@ -30,7 +31,7 @@
                     <li><a href="">Accedi</a></li>
                 </ul>
 
-                <button id="ButtonInizia" class="blueButton"><a href="">Inizia</a></button>
+                <button id="ButtonInizia" class="blueButton"><a class="WhiteLink" href="">Inizia</a></button>
 
             </div>
 
@@ -43,12 +44,20 @@
             <div id="Section1Box" class="boxed1">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
 
-                <div> 
-                    <div>
-                        <!-- descrizione img -->
+                <div class="flex"> 
+                    <div id="ScatolaDescrSection1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt libero dolores temporibus laboriosam fugiat voluptatem, explicabo maxime illo neque optio dicta ut autem exercitationem velit atque quas, animi consequuntur ex.
+                        </p>
+
+                        <button id="ButtonProva" class="blueButton"> <a class="WhiteLink" href="">Inizia la tua prova gratuita</a> </button>
+
+                        <div>Annulla in qualsiasi momento</div>
+
+                        <div id="Arrow"><i class="fa-solid fa-arrow-down"></i></div>
+
                     </div>
-                    <div>
-                        <!-- img -->
+                    <div id="ScatolaImgSection1">
+                        <img id="imgSection1" src="./img/jumbo.png" alt="">
                     </div>
                 </div>
             </div>
@@ -92,7 +101,7 @@
 
                 <!-- Scatola PIU OPERAZIONI -->
                 <div>
-                    <h1>Esegui più operazioni con Dropbox Business</h1>
+                    <h3>Esegui più operazioni con Dropbox Business</h3>
 
                     <!-- Scatola con 6 colonne -->
                     <div></div>
