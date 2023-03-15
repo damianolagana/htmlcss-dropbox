@@ -181,6 +181,60 @@ span{
     border: 1px solid lightgrey;
 }
 
-.padding10px{
-    padding: 10px;
+.paddingPiano{
+    padding: 0.5em 3em;
 }
+
+.padding20px{
+    padding: 20px;
+}
+
+.padding1em{
+    padding: 1em 0 1em 0;
+
+}
+
+.padding2em{
+    padding: 2em 0 2em 0;
+}
+
+.paddingButton{
+    padding: 0.5em 1.5em;
+}
+
+
+h4{
+    padding: 5px;
+    font-size: x-large;
+}
+
+.fontbold{
+    font-weight: bold;
+}
+
+.colorGrey{
+    color: grey;
+}
+
+h6{
+    font-size: 1em;
+    padding: 1em 0 1em 0;
+    margin-top: 2em;
+
+}
+
+.LinkAcquista{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+#HalfHr{
+    height: 20px;
+    width: 20%;
+    border-bottom: 1px solid lightgray;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
