@@ -32,6 +32,23 @@ a{
     font-size: 1em;
 }
 
+.WhiteLink{
+    color: white;
+}
+
+.W100{
+    width: 100%;
+}
+
+.Fdirection{
+    flex-direction: column;
+}
+
+.FWrap{
+    flex-wrap: wrap;
+}
+
+
 /* HEADER */
 
 header{
@@ -72,13 +89,7 @@ header nav .inLineList > li > a {
     padding: 0.5em 1em;
 }
 
-.WhiteLink{
-    color: white;
-}
 
-.W100{
-    width: 100%;
-}
 
 
 /* MAIN */
@@ -266,3 +277,12 @@ h6{
     color: black;
 }
 
+.operationBox{
+    width: calc(100%/3);
+    padding: 25px;
+}
+
+#ScatolaScopri{
+    margin: 7em 0 7em 0;
+    width: 50%;
+}
