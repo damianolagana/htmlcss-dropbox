@@ -76,7 +76,9 @@ header nav .inLineList > li > a {
     color: white;
 }
 
-
+.W100{
+    width: 100%;
+}
 
 
 /* MAIN */
@@ -111,10 +113,6 @@ h1{
     padding-top: 100px;
 }
 
-#imgSection1{
-    width: 100%;
-    object-fit: contain;
-}
 
 #ScatolaimgSection1{
     width: 70%;
@@ -242,3 +240,29 @@ h6{
 .buttonW{
     width: 250px;
 }
+
+#imgPartner{
+    width: 60%;
+}
+
+#descrPartner{
+    width: 40%;
+    padding: 3em;
+}
+
+#PartnerBox{
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+#PartnerButton{
+    background-color: white;
+    padding: 10px;
+    border-color: darkgray;
+    margin-top: 2em;
+}
+
+#PartnerButton > a {
+    color: black;
+}
+
