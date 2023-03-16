@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.alignCenter{
+    align-items: center;
+}
+
 .inLineList{
     list-style-type: none;
 }
@@ -34,6 +38,10 @@ a{
 
 .WhiteLink{
     color: white;
+}
+
+.W50{
+    width: 50%;
 }
 
 .W100{
@@ -238,7 +246,7 @@ h6{
     color: #0061ff;
 }
 
-#HalfHr{
+.HalfHr{
     height: 20px;
     width: 20%;
     border-bottom: 1px solid lightgray;
@@ -285,4 +293,59 @@ h6{
 #ScatolaScopri{
     margin: 7em 0 7em 0;
     width: 50%;
+}
+
+/* SECTION LOGHI */
+
+#ScatolaLoghi{
+    width: 100%;
+    height: 650px;
+}
+
+.loghiBox{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.LogoBox{
+    width: 50%;
+    height: 50%;
+}
+
+#Logo1{
+    background-color: #a2d39b;
+}
+
+#Logo2{
+    background-color: #61082b;
+}
+
+#Logo3{
+    background-color: #0093ce;
+}
+
+#Logo4{
+    background-color: #ff1c1c;
+}
+
+#Logo5{
+    background-color: #ff1c1c;
+}
+
+#Logo6{
+    background-color: #b4d0e7;
+}
+
+#Logo7{
+    background-color: #0d2481;
+}
+
+#Logo8{
+    background-color: #ffd830;
+}
+
+#BoxLogoCentrale{
+    background-color: #f5f5f5;
+    padding: 2em;
+    overflow-y: scroll;
 }
