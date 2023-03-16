@@ -355,11 +355,12 @@ h6{
 
 #SectionProvaGratuita{
     background-color: #b4d0e7;
-    min-height: 360px;
+    min-height: 300px;
+    margin-bottom: 10em;
 }
 
 #ScatolaButtonProva2{
-    width: 18%;
+    width: 25%;
     height: 130px;
 }
 
@@ -370,4 +371,14 @@ h6{
 
 #ButtonProva2 > a {
     color: black;
+}
+
+/* DOMANDE FREQUENTI */
+
+.borderBottom{
+    border-bottom: 1px solid lightgrey;
+}
+
+#BoxDomanda1{
+    border-top: 1px solid lightgrey;
 }
